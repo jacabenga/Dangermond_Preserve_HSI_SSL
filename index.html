@@ -1,0 +1,1021 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/L.Control.Layers.Tree.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="js/proj4.js"></script>
+        <script src="js/proj4leaflet.js"></script>
+        <script src="data/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1.js"></script>
+        <script>
+        var highlightLayer;
+        function highlightFeature(e) {
+            highlightLayer = e.target;
+
+            if (e.target.feature.geometry.type === 'LineString' || e.target.feature.geometry.type === 'MultiLineString') {
+              highlightLayer.setStyle({
+                color: '#ffff00',
+              });
+            } else {
+              highlightLayer.setStyle({
+                fillColor: '#ffff00',
+                fillOpacity: 1
+              });
+            }
+            highlightLayer.openPopup();
+        }
+        var crs = new L.Proj.CRS('EPSG:32610', '+proj=utm +zone=10 +datum=WGS84 +units=m +no_defs', {
+            resolutions: [2800, 1400, 700, 350, 175, 84, 42, 21, 11.2, 5.6, 2.8, 1.4, 0.7, 0.35, 0.14, 0.07],
+        });
+        var map = L.map('map', {
+            crs: crs,
+            continuousWorld: false,
+            worldCopyJump: false, 
+            zoomControl:false, maxZoom:28, minZoom:1
+        }).fitBounds([[34.44349142673859,-120.54801268591261],[34.576367245098666,-120.29658980474933]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        // remove popup's row if "visible-with-data"
+        function removeEmptyRowsFromPopupContent(content, feature) {
+         var tempDiv = document.createElement('div');
+         tempDiv.innerHTML = content;
+         var rows = tempDiv.querySelectorAll('tr');
+         for (var i = 0; i < rows.length; i++) {
+             var td = rows[i].querySelector('td.visible-with-data');
+             var key = td ? td.id : '';
+             if (td && td.classList.contains('visible-with-data') && feature.properties[key] == null) {
+                 rows[i].parentNode.removeChild(rows[i]);
+             }
+         }
+         return tempDiv.innerHTML;
+        }
+        // add class to format popup if it contains media
+		function addClassToPopupIfMedia(content, popup) {
+			var tempDiv = document.createElement('div');
+			tempDiv.innerHTML = content;
+			if (tempDiv.querySelector('td img')) {
+				popup._contentNode.classList.add('media');
+					// Delay to force the redraw
+					setTimeout(function() {
+						popup.update();
+					}, 10);
+			} else {
+				popup._contentNode.classList.remove('media');
+			}
+		}
+        var zoomControl = L.control.zoom({
+            position: 'topleft'
+        }).addTo(map);
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_OpenStreetMap_0');
+        map.getPane('pane_OpenStreetMap_0').style.zIndex = 400;
+        var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            pane: 'pane_OpenStreetMap_0',
+            opacity: 1.0,
+            attribution: '',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OpenStreetMap_0;
+        map.addLayer(layer_OpenStreetMap_0);
+        function pop_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    for (var i in e.target._eventParents) {
+                        if (typeof e.target._eventParents[i].resetStyle === 'function') {
+                            e.target._eventParents[i].resetStyle(e.target);
+                        }
+                    }
+                    if (typeof layer.closePopup == 'function') {
+                        layer.closePopup();
+                    } else {
+                        layer.eachLayer(function(feature){
+                            feature.closePopup()
+                        });
+                    }
+                },
+                mouseover: highlightFeature,
+            });
+            var popupContent = '<table>\
+                    <tr>\
+                        <th scope="row">FID</th>\
+                        <td class="visible-with-data" id="FID">' + (feature.properties['FID'] !== null ? autolinker.link(String(feature.properties['FID']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <th scope="row">VegClass</th>\
+                        <td class="visible-with-data" id="VegClass">' + (feature.properties['VegClass'] !== null ? autolinker.link(String(feature.properties['VegClass']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Comments'] !== null ? autolinker.link(String(feature.properties['Comments']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Rank'] !== null ? autolinker.link(String(feature.properties['Rank']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['SUM_Acres'] !== null ? autolinker.link(String(feature.properties['SUM_Acres']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label1'] !== null ? autolinker.link(String(feature.properties['Label1']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Label2'] !== null ? autolinker.link(String(feature.properties['Label2']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Shape_Leng'] !== null ? autolinker.link(String(feature.properties['Shape_Leng']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['GlobalID'] !== null ? autolinker.link(String(feature.properties['GlobalID']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_0(feature) {
+            if (feature.properties['FID'] >= 1.000000 && feature.properties['FID'] <= 1.943396 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(247,252,245,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 1.943396 && feature.properties['FID'] <= 2.886792 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(244,251,242,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 2.886792 && feature.properties['FID'] <= 3.830189 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(242,250,239,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 3.830189 && feature.properties['FID'] <= 4.773585 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(239,249,236,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 4.773585 && feature.properties['FID'] <= 5.716981 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(236,248,233,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 5.716981 && feature.properties['FID'] <= 6.660377 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(234,247,229,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 6.660377 && feature.properties['FID'] <= 7.603774 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(231,246,226,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 7.603774 && feature.properties['FID'] <= 8.547170 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(228,245,223,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 8.547170 && feature.properties['FID'] <= 9.490566 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(223,243,218,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 9.490566 && feature.properties['FID'] <= 10.433962 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(219,241,213,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 10.433962 && feature.properties['FID'] <= 11.377358 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(215,239,209,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 11.377358 && feature.properties['FID'] <= 12.320755 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(210,237,204,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 12.320755 && feature.properties['FID'] <= 13.264151 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(206,236,199,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 13.264151 && feature.properties['FID'] <= 14.207547 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(201,234,194,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 14.207547 && feature.properties['FID'] <= 15.150943 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(196,232,189,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 15.150943 && feature.properties['FID'] <= 16.094340 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(191,229,184,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 16.094340 && feature.properties['FID'] <= 17.037736 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(185,227,178,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 17.037736 && feature.properties['FID'] <= 17.981132 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(179,225,173,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 17.981132 && feature.properties['FID'] <= 18.924528 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(174,222,167,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 18.924528 && feature.properties['FID'] <= 19.867925 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(168,220,162,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 19.867925 && feature.properties['FID'] <= 20.811321 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(163,218,157,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 20.811321 && feature.properties['FID'] <= 21.754717 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(156,215,151,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 21.754717 && feature.properties['FID'] <= 22.698113 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(150,212,146,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 22.698113 && feature.properties['FID'] <= 23.641509 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(143,209,140,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 23.641509 && feature.properties['FID'] <= 24.584906 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(136,205,135,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 24.584906 && feature.properties['FID'] <= 25.528302 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(130,202,129,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 25.528302 && feature.properties['FID'] <= 26.471698 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(123,199,124,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 26.471698 && feature.properties['FID'] <= 27.415094 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(116,196,118,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 27.415094 && feature.properties['FID'] <= 28.358491 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(109,192,114,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 28.358491 && feature.properties['FID'] <= 29.301887 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(101,189,111,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 29.301887 && feature.properties['FID'] <= 30.245283 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(94,185,107,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 30.245283 && feature.properties['FID'] <= 31.188679 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(86,181,103,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 31.188679 && feature.properties['FID'] <= 32.132075 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(79,178,100,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 32.132075 && feature.properties['FID'] <= 33.075472 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(71,174,96,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 33.075472 && feature.properties['FID'] <= 34.018868 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(64,170,92,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 34.018868 && feature.properties['FID'] <= 34.962264 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(60,165,89,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 34.962264 && feature.properties['FID'] <= 35.905660 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(55,161,85,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 35.905660 && feature.properties['FID'] <= 36.849057 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(51,156,82,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 36.849057 && feature.properties['FID'] <= 37.792453 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(46,151,78,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 37.792453 && feature.properties['FID'] <= 38.735849 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(42,146,75,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 38.735849 && feature.properties['FID'] <= 39.679245 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(37,142,71,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 39.679245 && feature.properties['FID'] <= 40.622642 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(33,137,67,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 40.622642 && feature.properties['FID'] <= 41.566038 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(27,132,63,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 41.566038 && feature.properties['FID'] <= 42.509434 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(21,127,59,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 42.509434 && feature.properties['FID'] <= 43.452830 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(16,122,55,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 43.452830 && feature.properties['FID'] <= 44.396226 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(10,118,51,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 44.396226 && feature.properties['FID'] <= 45.339623 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(4,113,47,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 45.339623 && feature.properties['FID'] <= 46.283019 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,107,43,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 46.283019 && feature.properties['FID'] <= 47.226415 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,100,40,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 47.226415 && feature.properties['FID'] <= 48.169811 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,92,37,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 48.169811 && feature.properties['FID'] <= 49.113208 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,84,34,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 49.113208 && feature.properties['FID'] <= 50.056604 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,76,30,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['FID'] >= 50.056604 && feature.properties['FID'] <= 51.000000 ) {
+                return {
+                pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(0,68,27,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1');
+        map.getPane('pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1').style.zIndex = 401;
+        map.getPane('pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1').style['mix-blend-mode'] = 'normal';
+        var layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1 = new L.geoJson(json_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+            layerName: 'layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+            pane: 'pane_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1',
+            onEachFeature: pop_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1,
+            style: style_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_0,
+        });
+        bounds_group.addLayer(layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1);
+        map.addLayer(layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1);
+        var overlaysTree = [
+            {label: 'jldp_vegcommunites_7503682070145113223 — jldp_vegcommunities_dissolved<br /><table><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_11940.png" /></td><td>1 - 1.94</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1942891.png" /></td><td>1.94 - 2.89</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_2893832.png" /></td><td>2.89 - 3.83</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3834773.png" /></td><td>3.83 - 4.77</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4775724.png" /></td><td>4.77 - 5.72</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_5726665.png" /></td><td>5.72 - 6.66</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_666766.png" /></td><td>6.66 - 7.6</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_768557.png" /></td><td>7.6 - 8.55</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_8559498.png" /></td><td>8.55 - 9.49</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_94910439.png" /></td><td>9.49 - 10.43</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1043113810.png" /></td><td>10.43 - 11.38</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1138123211.png" /></td><td>11.38 - 12.32</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1232132612.png" /></td><td>12.32 - 13.26</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1326142113.png" /></td><td>13.26 - 14.21</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1421151514.png" /></td><td>14.21 - 15.15</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1515160915.png" /></td><td>15.15 - 16.09</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1609170416.png" /></td><td>16.09 - 17.04</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1704179817.png" /></td><td>17.04 - 17.98</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1798189218.png" /></td><td>17.98 - 18.92</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1892198719.png" /></td><td>18.92 - 19.87</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_1987208120.png" /></td><td>19.87 - 20.81</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_2081217521.png" /></td><td>20.81 - 21.75</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_217522722.png" /></td><td>21.75 - 22.7</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_227236423.png" /></td><td>22.7 - 23.64</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_2364245824.png" /></td><td>23.64 - 24.58</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_2458255325.png" /></td><td>24.58 - 25.53</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_2553264726.png" /></td><td>25.53 - 26.47</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_2647274227.png" /></td><td>26.47 - 27.42</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_2742283628.png" /></td><td>27.42 - 28.36</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_283629329.png" /></td><td>28.36 - 29.3</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_293302530.png" /></td><td>29.3 - 30.25</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3025311931.png" /></td><td>30.25 - 31.19</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3119321332.png" /></td><td>31.19 - 32.13</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3213330833.png" /></td><td>32.13 - 33.08</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3308340234.png" /></td><td>33.08 - 34.02</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3402349635.png" /></td><td>34.02 - 34.96</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3496359136.png" /></td><td>34.96 - 35.91</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3591368537.png" /></td><td>35.91 - 36.85</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3685377938.png" /></td><td>36.85 - 37.79</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3779387439.png" /></td><td>37.79 - 38.74</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3874396840.png" /></td><td>38.74 - 39.68</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_3968406241.png" /></td><td>39.68 - 40.62</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4062415742.png" /></td><td>40.62 - 41.57</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4157425143.png" /></td><td>41.57 - 42.51</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4251434544.png" /></td><td>42.51 - 43.45</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_434544445.png" /></td><td>43.45 - 44.4</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_444453446.png" /></td><td>44.4 - 45.34</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4534462847.png" /></td><td>45.34 - 46.28</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4628472348.png" /></td><td>46.28 - 47.23</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4723481749.png" /></td><td>47.23 - 48.17</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4817491150.png" /></td><td>48.17 - 49.11</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_4911500651.png" /></td><td>49.11 - 50.06</td></tr><tr><td style="text-align: center;"><img src="legend/jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1_50065152.png" /></td><td>50.06 - 51</td></tr></table>', layer: layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1},
+            {label: "OpenStreetMap", layer: layer_OpenStreetMap_0, radioGroup: 'bm' },]
+        var lay = L.control.layers.tree(null, overlaysTree,{
+            //namedToggle: true,
+            //selectorBack: false,
+            //closedSymbol: '&#8862; &#x1f5c0;',
+            //openedSymbol: '&#8863; &#x1f5c1;',
+            //collapseAll: 'Collapse all',
+            //expandAll: 'Expand all',
+            collapsed: true,
+        });
+        lay.addTo(map);
+        setBounds();
+        var i = 0;
+        layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['VegClass'] !== null?String('<div style="color: #323232; font-size: 10pt; font-family: \'Open Sans\', sans-serif;">' + layer.feature.properties['VegClass']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1]);
+        map.on("zoomend", function(){
+            resetLabels([layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_jldp_vegcommunites_7503682070145113223jldp_vegcommunities_dissolved_1]);
+        });
+        </script>
+    </body>
+</html>
