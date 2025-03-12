@@ -1,10 +1,12 @@
 # Dangermond_Preserve_HSI_SSL
 Here are the documents related to the remote sensing study of Dangermond Preserve, using hyperspectral aerial data and self-supervised learning methods.
 
-# Dangermond Preserve HSI SSL
+
 This section in the repository contains flight line coverage screenshots from the SHIFT AVIRIG-NG campaign.
 
 ## Flight Line Coverage
+
+This section in the repository contains flight line coverage screenshots from the SHIFT AVIRIG-NG campaign.
 
 **24 February 2022**  
 ![](https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/february_24.PNG)
