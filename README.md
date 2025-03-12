@@ -11,7 +11,7 @@ This section in the repository contains flight line coverage screenshots from th
 ## Flight Line Coverage
 
 24 February 2022
-![24 February 2022](https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/flight_line_coverage/february_24.PNG)
+!(https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/flight_line_coverage/february_24.PNG)
 
 16 March 2022
 ![16 March 2022](https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/march_16.PNG)
