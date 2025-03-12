@@ -69,7 +69,7 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
 
 ## Median reflectance: signature of Vegetation Communities
 
-This section contains plots of the median spectral signature for each vegetation comunity. https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422
+This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422).
 
 
 <details>
