@@ -29,6 +29,7 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
 
 <details>
   <summary><b>18 March 2022</b></summary>
+  This survey is out of the ROI.
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/dates_out_of_ROI/18_March_2022.PNG" width="80%">
 </details>
 
@@ -45,6 +46,7 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
 
 <details>
   <summary><b>08 April 2022</b></summary>
+This survey is out of the ROI.
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/dates_out_of_ROI/08_April_2022_a.PNG" width="80%">
 </details>
 
@@ -80,6 +82,7 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
 
 <details>
   <summary><b>12 May 2022</b></summary>
+  This survey is out of the ROI.
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/dates_out_of_ROI/12_May_2022.PNG" width="80%">
 </details>
 
