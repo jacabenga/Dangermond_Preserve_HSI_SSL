@@ -120,11 +120,12 @@ This section contains plots of the median spectral signature for each [vegetatio
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02feb_24/median_reflectance_2022_02_24_strip_C.png" width="80%">
 </details>
 
+
 <details>
   <summary><b> Median reflectance: 28 February 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02feb_28/median_reflectance_2022_02_28_strip_A.png" width="80%">
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02feb_28/median_reflectance_2022_02_28_strip_B.png" width="80%">
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02feb_28/median_reflectance_2022_02_28_strip_C.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02february_28/median_reflectance_2022_02_28_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02february_28/median_reflectance_2022_02_28_strip_B.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02february_28/median_reflectance_2022_02_28_strip_C.png" width="80%">
 </details>
 
 
@@ -161,9 +162,9 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 <details>
   <summary><b> Median reflectance: 20 April 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_20/median_reflectance_2022_04_20_strip_A.png" width="80%">
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_20/median_reflectance_2022_04_20_strip_B.png" width="80%">
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_20/median_reflectance_2022_04_20_strip_C.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_20/median_reflectance_2022_04_20_strip_C2.png" width="80%">
 </details>
 
 
