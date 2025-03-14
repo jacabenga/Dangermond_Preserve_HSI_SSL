@@ -110,7 +110,7 @@ This survey is out of the ROI.
 
 ## Median reflectance: signature of Vegetation Communities
 
-This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422).
+This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), for 3 randomly selected separate flight lines.
 
 
 <details>
@@ -215,5 +215,89 @@ This section contains plots of the median spectral signature for each [vegetatio
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_2022_09_14_strip_C.png" width="80%">
 </details>
 
+
+
+## Median reflectance: signature of Vegetation Communities
+
+This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), averaged across all flight lines for each survey date. 
+
+
+<details>
+  <summary><b> Median reflectance: 24 February 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02feb_24/median_reflectance_2022_02_24_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 28 February 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02february_28/median_reflectance_2022_02_28_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 08 March 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_08/median_reflectance_2022_03_08_strip_A.png" width="80%">
+</details>  
+
+
+<details>
+  <summary><b> Median reflectance: 16 March 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_16/median_reflectance_2022_03_16_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 22 March 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_22/median_reflectance_2022_03_22_strip_A.png" width="80%">
+</details>  
+
+
+<details>
+  <summary><b> Median reflectance: 12 April 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_B.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_C.png" width="80%">
+</details> 
+
+<details>
+  <summary><b> Median reflectance: 20 April 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_20/median_reflectance_2022_04_20_strip_B.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 29 April 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_29/median_reflectance_2022_04_29_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 03 May 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_03/median_reflectance_2022_05_03_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 11 May 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_11/median_reflectance_2022_05_11_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 17 May 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_17/median_reflectance_2022_05_17_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 29 May 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_29/median_reflectance_2022_05_29_strip_A.png" width="80%">
+</details>
+
+
+<details>
+  <summary><b> Median reflectance: 14 September 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_2022_09_14_strip_A.png" width="80%">
+</details>
 
 
