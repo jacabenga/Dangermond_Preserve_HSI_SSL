@@ -219,7 +219,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 ## Median reflectance: signature of Vegetation Communities
 
-This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), averaged across all flight lines for each survey date. 
+This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), averaged across all flight lines for each survey date. Each spectrum has been filtered to remove noise, using the Savitzky-Golay filter (window_size = 9 bands; polynomial order = 2)
 
 
 <details>
@@ -255,8 +255,6 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> Median reflectance: 12 April 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_A.png" width="80%">
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_B.png" width="80%">
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_C.png" width="80%">
 </details> 
 
 <details>
