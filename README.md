@@ -10,40 +10,69 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/february_24.PNG" width="80%">
 </details>
 
-**28 Feb 2022**  
----
+<details>
+  <summary><b>28 February 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/february_28.PNG" width="80%">
+</details>
 
-**03 March 2022**  
----
+<details>
+  <summary><b>08 March 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/march_08.PNG" width="80%">
+</details>
+
 
 <details>
   <summary><b>16 March 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/march_16.PNG" width="80%">
 </details>
 
-**18 March 2022**  
----
 
-**22 March 2022**  
----
+<details>
+  <summary><b>18 March 2022</b></summary>
+  This survey is out of the ROI.
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/dates_out_of_ROI/18_March_2022.PNG" width="80%">
+</details>
 
-**08 April 2022**  
----
 
-**12 April 2022**  
----
+<details>
+  <summary><b>22 March 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/march_22.PNG" width="80%">
+</details>
+
+<details>
+  <summary><b>05 April 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/april_05.PNG" width="80%">
+</details>
+
+<details>
+  <summary><b>08 April 2022</b></summary>
+This survey is out of the ROI.
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/dates_out_of_ROI/08_April_2022_a.PNG" width="80%">
+</details>
+
+
+<details>
+  <summary><b>12 April 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/april_12.PNG" width="80%">
+</details>
 
 <details>
   <summary><b>20 April 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/april_20.PNG" width="80%">
 </details>
 
-**29 April 2022**  
----
+
+<details>
+  <summary><b>29 April 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/april_29.PNG" width="80%">
+</details>
 
 
-**03 May 2022**  
----
+<details>
+  <summary><b>03 May 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/may_03.PNG" width="80%">
+</details>
+
 
 <details>
   <summary><b>11 May 2022</b></summary>
@@ -51,20 +80,32 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
 </details>
 
 
-**12 May 2022**  
----
+<details>
+  <summary><b>12 May 2022</b></summary>
+  This survey is out of the ROI.
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/dates_out_of_ROI/12_May_2022.PNG" width="80%">
+</details>
 
-**17 May 2022**  
----
 
-**29 May 2022**  
----
+
+<details>
+  <summary><b>17 May 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/may_17.PNG" width="80%">
+</details>
+
+
+<details>
+  <summary><b>29 May 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/may_29.PNG" width="80%">
+</details>
+
 
 
 <details>
   <summary><b>14 September 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/september_14.PNG" width="80%">
 </details>
+
 
 
 ## Median reflectance: signature of Vegetation Communities
