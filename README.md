@@ -315,4 +315,7 @@ This section contains plots of the median spectral signature for each [vegetatio
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_all_ncfiles_09_14.png" width="80%">
 </details>
 
+## Flight Line Coverage
+
+This section will contain the results of the Bidimensional Histogram Spectral Difference (BHSD), as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates.
 
