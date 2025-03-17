@@ -2,7 +2,9 @@
 
 Hi there, 
 
-Here are the documents related to the remote sensing study of Dangermond Preserve, using hyperspectral aerial data and self-supervised learning methods.
+I am Jaime.
+
+Here I am posting some plots and screenshots related to the progress of the remote sensing study focused at the Dangermond Preserve, using hyperspectral aerial data and self-supervised learning methods.
 
 ## Flight Line Coverage
 
