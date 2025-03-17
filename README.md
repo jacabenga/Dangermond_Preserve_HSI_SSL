@@ -4,7 +4,7 @@ Hi there,
 
 I am Jaime.
 
-Here I am posting some plots and screenshots related to the progress of the remote sensing study focused at the Dangermond Preserve, using hyperspectral aerial data and self-supervised learning methods.
+Here I am posting some plots and screenshots related to the progress of the remote sensing study focused on the Dangermond Preserve, using hyperspectral aerial data and self-supervised learning methods.
 
 ## Flight Line Coverage
 
