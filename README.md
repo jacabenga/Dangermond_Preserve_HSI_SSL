@@ -284,7 +284,7 @@ This section contains plots of the median spectral signature for each [vegetatio
   <summary><b> Median reflectance: 11 May 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_11/median_reflectance_all_ncfiles_05_11.png" width="80%">
 
-  Interestingly, there seems to be 1st order heterogeneity (i.e. gradual shift in mean values across the landscape), as shown by the difference between the upper plot and the plot here below:
+  Interestingly, there seems to be 1st order heterogeneity (i.e. gradual shift in mean values across the landscape), as shown by the difference between the upper plot and the plot here below (where I only considered 2 NetCDF4 files):
 
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_11/median_reflectance_2_ncfiles_05_11.png" width="80%">
 </details>
