@@ -22,7 +22,7 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
 
 <details>
   <summary><b>08 March 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/march_08.PNG" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/march_8.PNG" width="80%">
 </details>
 
 
@@ -44,10 +44,12 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/march_22.PNG" width="80%">
 </details>
 
+
 <details>
   <summary><b>05 April 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/april_05.PNG" width="80%">
 </details>
+
 
 <details>
   <summary><b>08 April 2022</b></summary>
@@ -60,6 +62,7 @@ This survey is out of the ROI.
   <summary><b>12 April 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/april_12.PNG" width="80%">
 </details>
+
 
 <details>
   <summary><b>20 April 2022</b></summary>
@@ -241,7 +244,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 <details>
   <summary><b> Median reflectance: 08 March 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_08/median_reflectance_all_ncfiles_03_08.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_08/median_reflectance_all_ncfiles08_March.png" width="80%">
 </details>  
 
 
