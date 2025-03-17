@@ -229,78 +229,82 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 <details>
   <summary><b> Median reflectance: 24 February 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02feb_24/median_reflectance_2022_02_24_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02feb_24/median_reflectance_all_ncfiles_02_24.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 28 February 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02february_28/median_reflectance_2022_02_28_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/02february_28/median_reflectance_all_ncfiles_02_28.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 08 March 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_08/median_reflectance_2022_03_08_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_08/median_reflectance_all_ncfiles_03_08.png" width="80%">
 </details>  
 
 
 <details>
   <summary><b> Median reflectance: 16 March 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_16/median_reflectance_2022_03_16_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_16/median_reflectance_all_ncfiles_03_16.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 22 March 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_22/median_reflectance_2022_03_22_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/03march_22/median_reflectance_all_ncfiles_03_22.png" width="80%">
 </details>  
 
 
 <details>
   <summary><b> Median reflectance: 12 April 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_all_ncfiles_04_12.png" width="80%">
 </details> 
 
 <details>
   <summary><b> Median reflectance: 20 April 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_20/median_reflectance_2022_04_20_strip_B.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_20/median_reflectance_all_ncfiles_04_20.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 29 April 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_29/median_reflectance_2022_04_29_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_29/median_reflectance_all_ncfiles_04_29.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 03 May 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_03/median_reflectance_2022_05_03_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_03/median_reflectance_all_ncfiles_05_03.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 11 May 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_11/median_reflectance_2022_05_11_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_11/median_reflectance_all_ncfiles_05_11.png" width="80%">
+
+  Interestingly, there seems to be 1st order heterogeneity (i.e. gradual shift in mean values across the landscape), as shown by the difference between the upper plot and the plot here below:
+
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_11/median_reflectance_2_ncfiles_05_11.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 17 May 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_17/median_reflectance_2022_05_17_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_17/median_reflectance_all_ncfiles_05_17.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 29 May 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_29/median_reflectance_2022_05_29_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_29/median_reflectance_all_ncfiles_05_29.png" width="80%">
 </details>
 
 
 <details>
   <summary><b> Median reflectance: 14 September 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_2022_09_14_strip_A.png" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_all_ncfiles_09_14.png" width="80%">
 </details>
 
 
