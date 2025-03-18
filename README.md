@@ -227,7 +227,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 ## Median reflectance: signature of vegetation communities (averaged across flight lines, for separate dates)
 
-This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), averaged across all flight lines for each survey date. Each spectrum has been filtered to remove noise, using the Savitzky-Golay filter (window_size = 9 bands; polynomial order = 2)
+This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), averaged across all flight lines for each survey date. Each spectrum has been filtered to remove noise, using the Savitzky-Golay filter (window_size = 9 bands; polynomial_order = 2)
 
 
 <details>
