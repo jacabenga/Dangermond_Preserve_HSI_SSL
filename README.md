@@ -304,7 +304,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 </details>
 
 
-<details
+<details>
   <summary><b> Median reflectance: 29 May 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/05may_29/median_reflectance_all_ncfiles29_May.png" width="80%">
 </details>
