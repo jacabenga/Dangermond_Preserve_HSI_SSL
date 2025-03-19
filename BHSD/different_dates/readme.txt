@@ -1,0 +1,1 @@
+we compare the asme Veg Class reflectance signals along time --> phenology trajectory.
