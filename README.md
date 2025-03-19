@@ -320,6 +320,8 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 This section will contain the results of the Bidimensional Histogram Spectral Difference (BHSD), as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates.
 
+**Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation.
+
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
