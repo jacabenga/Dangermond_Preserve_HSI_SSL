@@ -316,7 +316,14 @@ This section contains plots of the median spectral signature for each [vegetatio
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_all_ncfiles14_Sept.png" width="80%">
 </details>
 
-## Spectral Differences of reflectance signals: (i) across vegetation communities and (ii) across dates.
+## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
 
 This section will contain the results of the Bidimensional Histogram Spectral Difference (BHSD), as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates.
+
+
+<details>
+  <summary><b> BHSD: 14 September 2022</b></summary>
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/BHSD/same_date/BHSD_ref_median_all_nc_14.09.2022.PNG" width="80%">
+</details>
+
 
