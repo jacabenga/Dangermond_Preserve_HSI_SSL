@@ -323,7 +323,7 @@ This section will contain the results of the Bidimensional Histogram Spectral Di
 
 <details>
   <summary><b> BHSD: 14 September 2022</b></summary>
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/BHSD/same_date/BHSD_ref_median_all_nc_14.09.2022.PNG" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_14.09.2022.PNG" width="80%">
 </details>
 
 
