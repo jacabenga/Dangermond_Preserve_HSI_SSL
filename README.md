@@ -325,85 +325,102 @@ This section contains temporary results of the **Bidimensional Histogram Spectra
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_02.24.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 28 February 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_28.02.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 08 March 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_08.03.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 16 March 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_16.03.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 22 March 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_22.03.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 05 April 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_05.04.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 12 April 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_12.04.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 20 April 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_04.20.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 29 April 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_04.29.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 03 May 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_03.05.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 11 May 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_11.05.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 17 May 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_17.05.2022_BAD.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 29 May 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_29.05.2022.PNG" width="80%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 14 September 2022</b></summary>
+  Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/BHSD_ref_median_all_nc_14.09.2022.PNG" width="80%">
 </details>
 
 
+## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
+
+This section shows similar results as above (**Bidimensional Histogram Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class, instead of by pixel count. With this, we want to see whether different Vegetation Classes show clustering in the BHSD.
