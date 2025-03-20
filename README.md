@@ -423,4 +423,4 @@ This section contains temporary results of the **Bidimensional Histogram Spectra
 
 ## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
 
-This section cshows similar results as above (**Bidimensional Histogram Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class, instead of by pixel count. With this, we want to see whether different Vegetation Classes show clustering in the BHSD.
+This section shows similar results as above (**Bidimensional Histogram Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class, instead of by pixel count. With this, we want to see whether different Vegetation Classes show clustering in the BHSD.
