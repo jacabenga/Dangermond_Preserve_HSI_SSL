@@ -336,56 +336,6 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 **Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation --- as a result of biochemical differentiation.
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Display</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f8f9fa;
-            margin: 20px;
-        }
-        .image-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        img {
-            max-width: 90%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-        }
-        .caption {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="image-container">
-        <div class="caption">This is my first image</div>
-        <img src="BHSD_ref_median_all_nc_24.02.2022_wNaNs.PNG" alt="Description of image 1">
-    </div>
-
-    <div class="image-container">
-        <div class="caption">This is my second image</div>
-        <img src="BHSD_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" alt="Description of image 2">
-    </div>
-
-</body>
-</html>
-
-
-
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
   Using the median reflectance as reference (below):
