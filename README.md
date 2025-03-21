@@ -393,105 +393,108 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: 08 March 2022</b></summary>
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/BHSD_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/BHSD_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 16 March 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/BHSD_ref_median_all_nc_16.03.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/BHSD_ref_1minusmean_all_nc_16.03.2022_wNaNs.PNG" width="40%">
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_median_all_nc_16.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_1minusmean_all_nc_16.03.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 22 March 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/BHSD_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/BHSD_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/BHSD_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/BHSD_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 05 April 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/BHSD_ref_median_7_nc_05.04.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/BHSD_ref_1minusmean_7_nc_05.04.2022_wNaNs.PNG" width="40%">
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_7_nc_05.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_7_nc_05.04.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 12 April 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/BHSD_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/BHSD_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
-  <summary><b> BHSD: 20 April 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/BHSD_ref_median_all_nc_20.04.2022_wNaNs.PNG" width="40%">
-  
-    Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/BHSD_ref_1minusmean_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+   <summary><b> BHSD: 20 April 2022</b></summary>
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 29 April 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/BHSD_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="40%">
-   Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/BHSD_ref_1minusmean_all_nc_29.04.2022_wNaNs.PNG" width="40%">
-  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 29 April 2022</b></summary>
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_29.04.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 03 May 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_median_all_nc_03.05.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_1minusmean_all_nc_03.05.2022_wNaNs.PNG" width="40%">
-
-  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_03.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_03.05.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 11 May 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/BHSD_ref_median_all_nc_11.05.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/BHSD_ref_1minusmean_all_nc_11.05.2022_wNaNs.PNG" width="40%">
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_11.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_11.05.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 17 May 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/BHSD_ref_median_all_nc_17.05.2022__wNaNs_v3.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/BHSD_ref_1minusmean_all_nc_17.05.2022_wNaNs.PNG" width="40%">
-  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_17.05.2022__wNaNs_v3.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_17.05.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
 <details>
   <summary><b> BHSD: 29 May 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/BHSD_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
-  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_29.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_29.05.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
 
 
@@ -502,10 +505,6 @@ This section contains plots of the median spectral signature for each [vegetatio
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
-
-
-
-
 
 
 
