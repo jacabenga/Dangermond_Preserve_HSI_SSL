@@ -334,83 +334,107 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 **(work in progress)** This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
 
-**Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation.
+**Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation --- as a result of biochemical differentiation.
 
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/BHSD_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/BHSD_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/BHSD_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 28 February 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/BHSD_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/BHSD_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/BHSD_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 08 March 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_median_all_nc_08.03.2022.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 16 March 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/BHSD_ref_median_all_nc_16.03.2022.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 22 March 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/BHSD_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/BHSD_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/BHSD_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 05 April 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/BHSD_ref_median_all_nc_05.04.2022.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/BHSD_ref_median_7_nc_05.04.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/BHSD_ref_1minusmean_7_nc_05.04.2022_wNaNs.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 12 April 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/BHSD_ref_median_all_nc_12.04.2022.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/BHSD_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/BHSD_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 20 April 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/BHSD_ref_median_all_nc_04.20.2022.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/BHSD_ref_median_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/BHSD_ref_1minusmean_all_nc_20.04.2022_wNaNs.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 29 April 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/BHSD_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/BHSD_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="40%">
   
-  Using (1-mean_reflectance) as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/BHSD_ref_1minusmean_all_nc_29.04.2022_wNaNs.PNG" width="80%">
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/BHSD_ref_1minusmean_all_nc_29.04.2022_wNaNs.PNG" width="40%">
   
 </details>
 
 
 <details>
   <summary><b> BHSD: 03 May 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_median_all_nc_03.05.2022_wNaNs.PNG" width="80%">
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_median_all_nc_03.05.2022_wNaNs.PNG" width="40%">
   
-  Using (1-mean_reflectance) as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_1minusmean_all_nc_03.05.2022_wNaNs.PNG" width="80%">
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_1minusmean_all_nc_03.05.2022_wNaNs.PNG" width="40%">
 
   
 </details>
@@ -418,30 +442,55 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 <details>
   <summary><b> BHSD: 11 May 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/BHSD_ref_median_all_nc_11.05.2022_wNaNs.PNG" width="80%">
+  
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/BHSD_ref_1minusmean_all_nc_11.05.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/BHSD_ref_median_all_nc_11.05.2022_wNaNs.PNG" width="40%">
 </details>
 
 
 <details>
   <summary><b> BHSD: 17 May 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/BHSD_ref_median_all_nc_17.05.2022_wNaNs.PNG" width="80%">
+  
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/BHSD_ref_median_all_nc_17.05.2022__wNaNs_v3.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/BHSD_ref_1minusmean_all_nc_17.05.2022_wNaNs.PNG" width="40%">
+  
 </details>
 
 
 <details>
   <summary><b> BHSD: 29 May 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/BHSD_ref_median_all_nc_29.05.2022_wNaNs.PNG" width="80%">
+  
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/BHSD_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+  
 </details>
 
 
 <details>
   <summary><b> BHSD: 14 September 2022</b></summary>
-  Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="80%">
+  
+  Using the median reflectance as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+  
+    Using (1-mean_reflectance) as reference (below):
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
 </details>
+
+
+
+
+
+
+
 
 
 ## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
