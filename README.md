@@ -236,6 +236,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 ## Median reflectance: signature of vegetation communities (averaged across flight lines, for separate dates)
 
+
 This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), averaged across all flight lines for each survey date. Each spectrum has been filtered to remove noise, using the Savitzky-Golay filter (window_size = 9 bands; polynomial_order = 2)
 
 
@@ -325,7 +326,11 @@ This section contains plots of the median spectral signature for each [vegetatio
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_all_ncfiles14_Sept.png" width="80%">
 </details>
 
+
+
 ## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
+
+
 
 **(work in progress)** This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
 
@@ -391,7 +396,11 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: 29 April 2022</b></summary>
   Using the median reflectance as reference:
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/BHSD_ref_median_all_nc_29.04.2022.PNG" width="80%">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="80%">
+  
+  Using (1-mean_reflectance) as reference:
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_1minusmean_all_nc_29.04.2022_wNaNs.PNG" width="80%">
+  
 </details>
 
 
@@ -399,6 +408,11 @@ This section contains plots of the median spectral signature for each [vegetatio
   <summary><b> BHSD: 03 May 2022</b></summary>
   Using the median reflectance as reference:
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_median_all_nc_03.05.2022_wNaNs.PNG" width="80%">
+  
+  Using (1-mean_reflectance) as reference:
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/BHSD_ref_1minusmean_all_nc_03.05.2022_wNaNs.PNG" width="80%">
+
+  
 </details>
 
 
