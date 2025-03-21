@@ -359,23 +359,20 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 
 
-----------------
 
 ## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
 
+
+
+
 **(work in progress)** This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
+
 
 **Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation --- as a result of biochemical differentiation.
 
----
 
-<style>
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>
+
+
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
@@ -399,58 +396,6 @@ This section contains plots of the median spectral signature for each [vegetatio
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
   </div>
-</details>
-
-<!-- Repeat this structure for all dates -->
-
-<details>
-  <summary><b> BHSD: 14 September 2022</b></summary>
-  <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
-  </div>
-</details>
-
-
------------------
-
-
-## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
-
-
-
-
-**(work in progress)** This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
-
-
-**Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation --- as a result of biochemical differentiation.
-
-
-
-<details>
-  <summary><b> BHSD: 24 February 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/BHSD_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/BHSD_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="40%">
-</details>
-
-
-<details>
-  <summary><b> BHSD: 28 February 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/BHSD_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/BHSD_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
-</details>
-
-
-<details>
-  <summary><b> BHSD: 08 March 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/BHSD_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
 </details>
 
 
@@ -552,12 +497,11 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 <details>
   <summary><b> BHSD: 14 September 2022</b></summary>
-  Using the median reflectance as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
-  Using (1-mean_reflectance) as reference (below):
-  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/BHSD_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+  </div>
 </details>
-
 
 
 
