@@ -363,9 +363,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 ## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
 
 
-
-
-**(work in progress)** This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
+This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
 
 
 **Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation --- as a result of biochemical differentiation.
