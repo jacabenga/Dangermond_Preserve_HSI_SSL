@@ -162,7 +162,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 
 <details>
-  <summary><b> Median reflectance: 05 May 2022 </b></summary>
+  <summary><b> Median reflectance: 05 April 2022 </b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_05/median_reflectane_2022_04_05_strip_A.png" width="80%">
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_05/median_reflectane_2022_04_05_strip_B.png" width="80%">
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_05/median_reflectane_2022_04_05_strip_C.png" width="80%">
