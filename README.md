@@ -147,7 +147,6 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
 </details>
 
 
-
 ## Median reflectance: signature of Vegetation Communities (separate flight lines)
 
 This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), for 3 randomly selected separate flight lines.
@@ -201,13 +200,13 @@ This section contains plots of the median spectral signature for each [vegetatio
 </details>
 
 
-
 <details>
   <summary><b> Median reflectance: 12 April 2022</b></summary>
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_A.png" width="80%">
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_B.png" width="80%">
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/04april_12/median_reflectance_2022_04_12_strip_C.png" width="80%">
 </details> 
+
 
 <details>
   <summary><b> Median reflectance: 20 April 2022</b></summary>
@@ -263,7 +262,6 @@ This section contains plots of the median spectral signature for each [vegetatio
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_2022_09_14_strip_B.png" width="80%">
   <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/spectral_median_reflectance/09sept_14/median_reflectance_2022_09_14_strip_C.png" width="80%">
 </details>
-
 
 
 ## Median reflectance: signature of vegetation communities (averaged across flight lines, for separate dates)
