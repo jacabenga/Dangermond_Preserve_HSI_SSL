@@ -541,7 +541,7 @@ This section contains temporary results of the **Bidimensional Histogram Spectra
   <summary><b> BHSD: 22 March 2022</b></summary>
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/comment_label/BHSDcomment_color_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22comment_label/BHSDcomment_color_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22comment_label/BHSDcomment_color_ref_1minusmean_all_nc_22.03.2022_wNaNs_v2.PNG" width="40%">
   </div>
 </details>
 
