@@ -507,6 +507,7 @@ We have 3 types of Vegetation Alliance:
 - Tree-dominated alliance
 - Shrub-dominated alliance
 - Herb-dominated alliance
+- If there is a 4th color: class = 'Unknown'
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
