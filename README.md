@@ -16,8 +16,8 @@ This section contains flight line coverage screenshots from the SHIFT AVIRIG-NG 
     <p><b>24 February 2022</b></p>
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/flight_line_coverage/february_24.PNG" width="80%">
   </div>
-</details>
-
+<details>
+  
 <details>
   <summary><b>28 February 2022</b></summary>
   <div style="text-align: center;">
