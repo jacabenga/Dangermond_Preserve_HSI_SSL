@@ -511,6 +511,7 @@ We have 3 types of Vegetation Alliance:
 | 2  | Herb-dominated alliance      |
 | 3  | Unknown                      |
 
+In the plots below, each color indicates a different Vegetation Alliance.
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
@@ -641,6 +642,7 @@ This section will show similar results as above (**Bidimensional Histogram of Sp
 
 We have 50 Vegetation Classes, as described in [this ArcGIS dataset](https://dangermondpreserve-tnc.hub.arcgis.com/datasets/TNC::vegetation/about).
 
+
 | #  | Vegetation Class                                |
 |----|-------------------------------------------------|
 | 1  | Agricultural Areas                              |
@@ -695,6 +697,7 @@ We have 50 Vegetation Classes, as described in [this ArcGIS dataset](https://dan
 | 50 | Western Rush Marshes                            |
 | 51 | None                                            |
 
+In the plots below, each color indicates a different Vegetation Class.
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
