@@ -508,7 +508,7 @@ We have 3 types of Vegetation Alliance:
 - Shrub-dominated alliance
 - Herb-dominated alliance
 
-(note: I have to update the plotting parameters, the plots are rendered undersaturadet, and very thin clouds are shown.)
+(note: I have to update the plotting parameters, the plots are rendered undersaturated, and very thin clouds are shown.)
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
