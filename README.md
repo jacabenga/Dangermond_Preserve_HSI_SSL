@@ -639,7 +639,7 @@ We have 3 types of Vegetation Alliance:
 
 This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class (50 fine-grained classes), instead of by pixel count. With this, we want to see whether different vegetation classes show clustering in the BHSD.
 
-We have 50 Vegetation Classes.
+We have 50 Vegetation Classes, as described in [this ArcGIS dataset](https://dangermondpreserve-tnc.hub.arcgis.com/datasets/TNC::vegetation/about).
 
 | #  | Vegetation Class                                |
 |----|-------------------------------------------------|
