@@ -641,7 +641,7 @@ We have 3 types of Vegetation Alliance:
 
 We have 50 Vegetation Classes.
 
-| #  | Area Name                                       |
+| #  | Vegetation Class                                |
 |----|-------------------------------------------------|
 | 0  | Agricultural Areas                              |
 | 1  | Arroyo Willow Thickets                          |
