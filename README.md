@@ -363,7 +363,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 ## Spectral Differences of reflectance signals: (within one single date).
 
 
-This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
+This section contains temporary results of the **Bidimensional Histogram of Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
 
 
 **Remarks**: at the beginning of the season (February), the spectral differences are predominantly in reflectance intensity (energy). In contrast, later in the season the differences appear in the shape axis predominantly, not that much in energy. This seems reasonable and consistent with a progressive leaf unfolding and spectral differentiation of vegetation --- as a result of biochemical differentiation.
@@ -500,7 +500,7 @@ This section contains temporary results of the **Bidimensional Histogram Spectra
 
 ## Spectral Differences of reflectance signals (within one single date).
 
-This section shows similar results as above (**Bidimensional Histogram Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Alliance type (3 coarse classes), instead of by pixel count. With this, we want to see whether different vegetation alliance types show clustering in the BHSD.
+This section shows similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Alliance type (3 coarse classes), instead of by pixel count. With this, we want to see whether different vegetation alliance types show clustering in the BHSD.
 
 We have 3 types of Vegetation Alliance:
 
@@ -637,7 +637,7 @@ We have 3 types of Vegetation Alliance:
 
 ## Spectral Differences of reflectance signals (within one single date).
 
-This section will show similar results as above (**Bidimensional Histogram Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class (50 fine-grained classes), instead of by pixel count. With this, we want to see whether different vegetation classes show clustering in the BHSD.
+This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class (50 fine-grained classes), instead of by pixel count. With this, we want to see whether different vegetation classes show clustering in the BHSD.
 
 We have 50 Vegetation Classes.
 
