@@ -643,56 +643,56 @@ We have 50 Vegetation Classes.
 
 | #  | Vegetation Class                                |
 |----|-------------------------------------------------|
-| 0  | Agricultural Areas                              |
-| 1  | Arroyo Willow Thickets                          |
-| 2  | Baltic and Mexican Rush Marshes                 |
-| 3  | Bishop Pine Forest                              |
-| 4  | Black Sage Scrub                                |
-| 5  | Brownheaded Rush Seeps                          |
-| 6  | Buckbrush Ceanothus Chaparral                   |
-| 7  | Bush Monkeyflower Scrub                         |
-| 8  | California Brittle Bush Scrub                   |
-| 9  | California Bulrush Marsh                        |
-| 10 | California Sagebrush Scrub                      |
-| 11 | California Walnut Groves                        |
-| 12 | Cattail Marshes                                 |
-| 13 | Chamise Chaparral                               |
-| 14 | Coast buckwheat scrub                           |
-| 15 | Coast Live Oak Woodland                         |
-| 16 | Coastal Bluffs                                  |
-| 17 | Coastal Strand                                  |
-| 18 | Coffeeberry Scrub                               |
-| 19 | Coyote Brush Scrub                              |
-| 20 | Creeping Ryegrass Turfs                         |
-| 21 | Deer Weed Scrub                                 |
-| 22 | Developed/Disturbed Areas                       |
-| 23 | Eucalyptus Groves                               |
-| 24 | Giant Coreopsis Scrub                           |
-| 25 | Giant Wild Rye Grassland                        |
-| 26 | Holly Leaf Cherry Chaparral                     |
-| 27 | La Purisima Manzanita Chaparral                 |
-| 28 | Lemonade Berry Scrub                            |
-| 29 | Long Leaf Bush Lupine Scrub                     |
-| 30 | Menzie's Golden Bush Scrub                      |
-| 31 | Monterey Cypress Stands                         |
-| 32 | Non-native Grassland                            |
-| 33 | Open Waters                                     |
-| 34 | Poison Oak Scrub                                |
-| 35 | Purple Needlegrass Grassland                    |
-| 36 | Purple Sage Scrub                               |
-| 37 | Redberry Scrub                                  |
-| 38 | Salt Grass Flats                                |
-| 39 | Sand Dune Sedge Swaths                          |
-| 40 | Sawtooth Golden Bush Scrub                      |
-| 41 | Seaside Golden Yarrow Patches                   |
-| 42 | Semi-natural Herbaceous Stands                  |
-| 43 | Semi-natural Stands                             |
-| 44 | Silver Bush Lupine Scrub                        |
-| 45 | Silver Dune Lupine - Mock Heather Scrub         |
-| 46 | Summer Holly Stands                             |
-| 47 | Tanoak Forest                                   |
-| 48 | Toyon Chaparral                                 |
-| 49 | Western Rush Marshes                            |
-| 50 | None                                            |
+| 1  | Agricultural Areas                              |
+| 2  | Arroyo Willow Thickets                          |
+| 3  | Baltic and Mexican Rush Marshes                 |
+| 4  | Bishop Pine Forest                              |
+| 5  | Black Sage Scrub                                |
+| 6  | Brownheaded Rush Seeps                          |
+| 7  | Buckbrush Ceanothus Chaparral                   |
+| 8  | Bush Monkeyflower Scrub                         |
+| 9 | California Brittle Bush Scrub                   |
+| 10 | California Bulrush Marsh                        |
+| 11 | California Sagebrush Scrub                      |
+| 12 | California Walnut Groves                        |
+| 13 | Cattail Marshes                                 |
+| 14 | Chamise Chaparral                               |
+| 15 | Coast buckwheat scrub                           |
+| 16 | Coast Live Oak Woodland                         |
+| 17 | Coastal Bluffs                                  |
+| 18 | Coastal Strand                                  |
+| 19 | Coffeeberry Scrub                               |
+| 20 | Coyote Brush Scrub                              |
+| 21 | Creeping Ryegrass Turfs                         |
+| 22 | Deer Weed Scrub                                 |
+| 23 | Developed/Disturbed Areas                       |
+| 24 | Eucalyptus Groves                               |
+| 25 | Giant Coreopsis Scrub                           |
+| 26 | Giant Wild Rye Grassland                        |
+| 27 | Holly Leaf Cherry Chaparral                     |
+| 28 | La Purisima Manzanita Chaparral                 |
+| 29 | Lemonade Berry Scrub                            |
+| 30 | Long Leaf Bush Lupine Scrub                     |
+| 31 | Menzie's Golden Bush Scrub                      |
+| 32 | Monterey Cypress Stands                         |
+| 33 | Non-native Grassland                            |
+| 34 | Open Waters                                     |
+| 35 | Poison Oak Scrub                                |
+| 36 | Purple Needlegrass Grassland                    |
+| 37 | Purple Sage Scrub                               |
+| 38 | Redberry Scrub                                  |
+| 39 | Salt Grass Flats                                |
+| 40 | Sand Dune Sedge Swaths                          |
+| 41 | Sawtooth Golden Bush Scrub                      |
+| 42 | Seaside Golden Yarrow Patches                   |
+| 43 | Semi-natural Herbaceous Stands                  |
+| 44 | Semi-natural Stands                             |
+| 45 | Silver Bush Lupine Scrub                        |
+| 46 | Silver Dune Lupine - Mock Heather Scrub         |
+| 47 | Summer Holly Stands                             |
+| 48 | Tanoak Forest                                   |
+| 49 | Toyon Chaparral                                 |
+| 50 | Western Rush Marshes                            |
+| 51 | None                                            |
 
 
