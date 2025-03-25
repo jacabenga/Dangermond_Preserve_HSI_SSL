@@ -504,10 +504,13 @@ This section contains temporary results of the **Bidimensional Histogram Spectra
 
 We have 3 types of Vegetation Alliance:
 
-- Tree-dominated alliance.
-- Shrub-dominated alliance.
-- Herb-dominated alliance.
-- If there is a 4th color: class = 'Unknown'.
+| #  | Alliance Type                |
+|----|------------------------------|
+| 0  | Tree-dominated alliance      |
+| 1  | Shrub-dominated alliance     |
+| 2  | Herb-dominated alliance      |
+| 3  | Unknown                      |
+
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
