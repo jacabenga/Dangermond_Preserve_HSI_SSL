@@ -513,8 +513,8 @@ We have 3 types of Vegetation Alliance:
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/comment_label/BHSD_comment_color_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/comment_label/BHSD_comment_color_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/comment_label/BHSD_comment_color_ref_median_all_nc_24.02.2022_wNaNs_v2.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/comment_label/BHSD_comment_color_ref_1minusmean_all_nc_24.02.2022_wNaNs_v2.PNG" width="40%">
   </div>
 </details>
 
