@@ -360,7 +360,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 
 
-## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
+## Spectral Differences of reflectance signals: (within one single date).
 
 
 This section contains temporary results of the **Bidimensional Histogram Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
@@ -498,16 +498,16 @@ This section contains temporary results of the **Bidimensional Histogram Spectra
 
 
 
-## Spectral Differences of reflectance signals: (i) within one single date and (ii) across dates.
+## Spectral Differences of reflectance signals (within one single date).
 
 **(work in progress)** This section will show similar results as above (**Bidimensional Histogram Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Alliance type (3 coarse classes), instead of by pixel count. With this, we want to see whether different vegetation alliance types show clustering in the BHSD.
 
 We have 3 types of Vegetation Alliance:
 
-- Tree-dominated alliance
-- Shrub-dominated alliance
-- Herb-dominated alliance
-- If there is a 4th color: class = 'Unknown'
+- Tree-dominated alliance.
+- Shrub-dominated alliance.
+- Herb-dominated alliance.
+- If there is a 4th color: class = 'Unknown'.
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
@@ -631,3 +631,65 @@ We have 3 types of Vegetation Alliance:
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/comment_label/BHSD_comment_color_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
+
+## Spectral Differences of reflectance signals (within one single date).
+
+**(work in progress)** This section will show similar results as above (**Bidimensional Histogram Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class (50 fine-grained classes), instead of by pixel count. With this, we want to see whether different vegetation classes show clustering in the BHSD.
+
+We have 50 Vegetation Classes.
+
+| #  | Area Name                                       |
+|----|-------------------------------------------------|
+| 0  | Agricultural Areas                              |
+| 1  | Arroyo Willow Thickets                          |
+| 2  | Baltic and Mexican Rush Marshes                 |
+| 3  | Bishop Pine Forest                              |
+| 4  | Black Sage Scrub                                |
+| 5  | Brownheaded Rush Seeps                          |
+| 6  | Buckbrush Ceanothus Chaparral                   |
+| 7  | Bush Monkeyflower Scrub                         |
+| 8  | California Brittle Bush Scrub                   |
+| 9  | California Bulrush Marsh                        |
+| 10 | California Sagebrush Scrub                      |
+| 11 | California Walnut Groves                        |
+| 12 | Cattail Marshes                                 |
+| 13 | Chamise Chaparral                               |
+| 14 | Coast buckwheat scrub                           |
+| 15 | Coast Live Oak Woodland                         |
+| 16 | Coastal Bluffs                                  |
+| 17 | Coastal Strand                                  |
+| 18 | Coffeeberry Scrub                               |
+| 19 | Coyote Brush Scrub                              |
+| 20 | Creeping Ryegrass Turfs                         |
+| 21 | Deer Weed Scrub                                 |
+| 22 | Developed/Disturbed Areas                       |
+| 23 | Eucalyptus Groves                               |
+| 24 | Giant Coreopsis Scrub                           |
+| 25 | Giant Wild Rye Grassland                        |
+| 26 | Holly Leaf Cherry Chaparral                     |
+| 27 | La Purisima Manzanita Chaparral                 |
+| 28 | Lemonade Berry Scrub                            |
+| 29 | Long Leaf Bush Lupine Scrub                     |
+| 30 | Menzie's Golden Bush Scrub                      |
+| 31 | Monterey Cypress Stands                         |
+| 32 | Non-native Grassland                            |
+| 33 | Open Waters                                     |
+| 34 | Poison Oak Scrub                                |
+| 35 | Purple Needlegrass Grassland                    |
+| 36 | Purple Sage Scrub                               |
+| 37 | Redberry Scrub                                  |
+| 38 | Salt Grass Flats                                |
+| 39 | Sand Dune Sedge Swaths                          |
+| 40 | Sawtooth Golden Bush Scrub                      |
+| 41 | Seaside Golden Yarrow Patches                   |
+| 42 | Semi-natural Herbaceous Stands                  |
+| 43 | Semi-natural Stands                             |
+| 44 | Silver Bush Lupine Scrub                        |
+| 45 | Silver Dune Lupine - Mock Heather Scrub         |
+| 46 | Summer Holly Stands                             |
+| 47 | Tanoak Forest                                   |
+| 48 | Toyon Chaparral                                 |
+| 49 | Western Rush Marshes                            |
+| 50 | None                                            |
+
+
