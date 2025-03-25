@@ -797,7 +797,7 @@ We have 50 Vegetation Classes.
 <details>
   <summary><b> BHSD: 29 April 2022</b></summary>
 
-  There are .. vegetation classes surveyed on this date.
+  There are 14 vegetation classes surveyed on this date.
 
   
   <div class="center">
