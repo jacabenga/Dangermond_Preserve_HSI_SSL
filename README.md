@@ -702,8 +702,8 @@ We have 50 Vegetation Classes.
   There are .. vegetation classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_24.02.2022_wNaNs_v2.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass_color_ref_1minusmean_all_nc_24.02.2022_wNaNs_v2.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
@@ -714,8 +714,8 @@ We have 50 Vegetation Classes.
   There are .. vegetation classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/vegclass_label/BHSD_vegclass_color_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/vegclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
@@ -727,8 +727,8 @@ We have 50 Vegetation Classes.
 
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_comment_color_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_comment_color_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_vegclass-22_color_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
@@ -749,11 +749,11 @@ We have 50 Vegetation Classes.
 <details>
   <summary><b> BHSD: 22 March 2022</b></summary>
   
-  There are .. vegetation classes surveyed on this date.
+  There are 32 vegetation classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/vegclass_label/BHSD_vegclass_color_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/vegclass_label/BHSD_vegclass-32_color_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/vegclass_label/BHSD_vegclass-32_color_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
@@ -761,7 +761,7 @@ We have 50 Vegetation Classes.
 <details>
   <summary><b> BHSD: 05 April 2022</b></summary>
   
-  There are .. 22 vegetation classes surveyed on this date.
+  There are 22 vegetation classes surveyed on this date.
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_05.04.2022_wNaNs.PNG" width="40%">
@@ -773,11 +773,11 @@ We have 50 Vegetation Classes.
 <details>
   <summary><b> BHSD: 12 April 2022</b></summary>
 
-  There are .. vegetation classes surveyed on this date.
+  There are 28 vegetation classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/vegclass_label/BHSD_vegclass_color_ref_1minusmedian_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/vegclass_label/BHSD_vegclass-28_color_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/vegclass_label/BHSD_vegclass-28_color_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
@@ -785,11 +785,11 @@ We have 50 Vegetation Classes.
 <details>
    <summary><b> BHSD: 20 April 2022</b></summary>
 
-  There are .. vegetation classes surveyed on this date.
+  There are 32 vegetation classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/vegclass_label/BHSD_commentvegclass_color_ref_median_all_nc_20.04.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/vegclass_label/BHSD_vegclass_color_ref_1minusmedian_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/vegclass_label/BHSD_vegclass-32_color_ref_median_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/vegclass_label/BHSD_vegclass-32_color_ref_1minusmean_all_nc_20.04.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
