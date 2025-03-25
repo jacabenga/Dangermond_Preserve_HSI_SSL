@@ -698,21 +698,16 @@ We have 50 Vegetation Classes.
 
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
-
   There are 22 vegetation classes surveyed on this date.
-  
-<div class="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
-    <div style="width: 2px; height: 100%; background-color: black;"></div> <!-- Vertical Line -->
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="40%">
+<div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="30%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="30%">
 </div>
-
+<details>
 
 <details>
   <summary><b> BHSD: 28 February 2022</b></summary>
-  
   There are 22 vegetation classes surveyed on this date.
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/vegclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
@@ -722,10 +717,7 @@ We have 50 Vegetation Classes.
 
 <details>
   <summary><b> BHSD: 08 March 2022</b></summary>
-  
   There are 22 vegetation classes surveyed on this date.
-
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_vegclass-22_color_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
@@ -735,10 +727,7 @@ We have 50 Vegetation Classes.
 
 <details>
   <summary><b> BHSD: 16 March 2022</b></summary>
-
   There are .. vegetation classes surveyed on this date.
-
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_16.03.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/vegclass_label/BHSD_vegclass_color_ref_1minusmean_all_nc_16.03.2022_wNaNs.PNG" width="40%">
@@ -748,9 +737,7 @@ We have 50 Vegetation Classes.
 
 <details>
   <summary><b> BHSD: 22 March 2022</b></summary>
-  
   There are 32 vegetation classes surveyed on this date.
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/vegclass_label/BHSD_vegclass-32_color_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/vegclass_label/BHSD_vegclass-32_color_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
@@ -760,9 +747,7 @@ We have 50 Vegetation Classes.
 
 <details>
   <summary><b> BHSD: 05 April 2022</b></summary>
-  
   There are 22 vegetation classes surveyed on this date.
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_05.04.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/vegclass_label/BHSD_vegclass_color_ref_1minusmedian_all_nc_05.04.2022_wNaNs.PNG" width="40%">
@@ -772,9 +757,7 @@ We have 50 Vegetation Classes.
 
 <details>
   <summary><b> BHSD: 12 April 2022</b></summary>
-
   There are 28 vegetation classes surveyed on this date.
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/vegclass_label/BHSD_vegclass-28_color_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/vegclass_label/BHSD_vegclass-28_color_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
@@ -786,7 +769,6 @@ We have 50 Vegetation Classes.
    <summary><b> BHSD: 20 April 2022</b></summary>
 
   There are 32 vegetation classes surveyed on this date.
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/vegclass_label/BHSD_vegclass-32_color_ref_median_all_nc_20.04.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/vegclass_label/BHSD_vegclass-32_color_ref_1minusmean_all_nc_20.04.2022_wNaNs.PNG" width="40%">
@@ -796,10 +778,7 @@ We have 50 Vegetation Classes.
 
 <details>
   <summary><b> BHSD: 29 April 2022</b></summary>
-
   There are 14 vegetation classes surveyed on this date.
-
-  
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/vegclass_label/BHSD_vegclass_color_ref_1minusmean_all_nc_29.04.2022_wNaNs.PNG" width="40%">
