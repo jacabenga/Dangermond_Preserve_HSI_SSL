@@ -822,7 +822,7 @@ We have 50 Vegetation Classes.
 <details>
   <summary><b> BHSD: 11 May 2022</b></summary>
 
-  There are .. vegetation classes surveyed on this date.
+  There are 27 vegetation classes surveyed on this date.
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_05.11.2022_wNaNs.PNG" width="40%">
@@ -834,7 +834,7 @@ We have 50 Vegetation Classes.
 <details>
   <summary><b> BHSD: 17 May 2022</b></summary>
   
-  There are .. vegetation classes surveyed on this date.
+  There are 22 vegetation classes surveyed on this date.
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/vegclass_label/BHSD_vegclass_color_ref_median_all_nc_05.17.2022_wNaNs.PNG" width="40%">
