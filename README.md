@@ -701,11 +701,11 @@ We have 50 Vegetation Classes.
 
   There are 22 vegetation classes surveyed on this date.
   
-  <div class="center">
+<div class="center" style="display: flex; align-items: center; justify-content: center; gap: 20px;">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
+    <div style="width: 2px; height: 100%; background-color: black;"></div> <!-- Vertical Line -->
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="40%">
-  </div>
-</details>
+</div>
 
 
 <details>
