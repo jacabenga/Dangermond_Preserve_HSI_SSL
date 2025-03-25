@@ -727,8 +727,8 @@ We have 50 Vegetation Classes.
 
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_vegclass-31_color_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/comment_label/BHSD_vegclass-31_color_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/vegclass_label/BHSD_vegclass-31_color_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/vegclass_label/BHSD_vegclass-31_color_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
