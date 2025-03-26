@@ -875,7 +875,7 @@ In the plots below, each color indicates a different Vegetation Class.
 
 This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Soil Class (18 classes). With this, we want to see whether different soil classes show clustering in the BHSD.
 
-We have previously applied a mask of NDVI < 0.5, to select areas with lower vegetation cover.
+We have previously applied a mask of NDVI < 0.25, to select areas with lower vegetation cover.
 
 We have 18 Soil Classes, as described in [this ArcGIS soil dataset](https://dangermondpreserve-tnc.hub.arcgis.com/maps/7f90768618d7408a8c3ef56dfc9eb74b/about).
 
