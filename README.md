@@ -360,7 +360,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 
 
-## Spectral Differences of reflectance signals: (within one single date).
+## Spectral Differences of reflectance signals: unsorted pixels within one single date.
 
 
 This section contains temporary results of the **Bidimensional Histogram of Spectral Difference (BHSD)**, as a result of comparing different spectral signals: (i) within one single date across Vegetation Classes, and (ii) within one same Vegetation Class, across dates. The BHSD provides a general idea of the difference between spectral signals along 2 axes: (i) the shape axis, and (ii) the energy axis. It can also serve to distinguish the number of spectral groups within a HSI file.
@@ -498,7 +498,7 @@ This section contains temporary results of the **Bidimensional Histogram of Spec
 
 
 
-## Spectral Differences of reflectance signals (within one single date).
+## Spectral Differences of reflectance signals: Vegetation Alliance type within one single date.
 
 This section shows similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Alliance type (3 coarse classes), instead of by pixel count. With this, we want to see whether different vegetation alliance types show clustering in the BHSD.
 
@@ -636,7 +636,7 @@ In the plots below, each color indicates a different Vegetation Alliance.
   </div>
 </details>
 
-## Spectral Differences of reflectance signals (within one single date).
+## Spectral Differences of reflectance signals: Vegetation Classes within one single date.
 
 This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class (50 fine-grained classes), instead of by pixel count. With this, we want to see whether different vegetation classes show clustering in the BHSD.
 
@@ -653,7 +653,7 @@ We have 50 Vegetation Classes, as described in [this ArcGIS vegetation dataset](
 | 6  | Brownheaded Rush Seeps                          |
 | 7  | Buckbrush Ceanothus Chaparral                   |
 | 8  | Bush Monkeyflower Scrub                         |
-| 9 | California Brittle Bush Scrub                   |
+| 9 | California Brittle Bush Scrub                    |
 | 10 | California Bulrush Marsh                        |
 | 11 | California Sagebrush Scrub                      |
 | 12 | California Walnut Groves                        |
@@ -871,7 +871,7 @@ In the plots below, each color indicates a different Vegetation Class.
 
 
 
-## Spectral Differences of reflectance signals (within one single date).
+## Spectral Differences of reflectance signals: Soil Classes within one single date.
 
 This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Soil Class (18 classes). With this, we want to see whether different soil classes show clustering in the BHSD.
 
