@@ -933,7 +933,7 @@ In the plots below, each color indicates a different Soil Class.
 <details>
   <summary><b> BHSD: 16 March 2022</b></summary>
 
-  There are ... soil classes surveyed on this date.
+  There are no soil classes surveyed on this date; no data with NDVI < 0.25.
 
   
   <div class="center">
