@@ -640,7 +640,7 @@ In the plots below, each color indicates a different Vegetation Alliance.
 
 This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class (50 fine-grained classes), instead of by pixel count. With this, we want to see whether different vegetation classes show clustering in the BHSD.
 
-We have 50 Vegetation Classes, as described in [this ArcGIS dataset](https://dangermondpreserve-tnc.hub.arcgis.com/datasets/TNC::vegetation/about).
+We have 50 Vegetation Classes, as described in [this ArcGIS vegetation dataset](https://dangermondpreserve-tnc.hub.arcgis.com/datasets/TNC::vegetation/about).
 
 
 | #  | Vegetation Class                                |
@@ -702,7 +702,7 @@ In the plots below, each color indicates a different Vegetation Class.
 <details>
   <summary><b> BHSD: 24 February 2022</b></summary>
 
-  There are .. vegetation classes surveyed on this date.
+  There are 22 vegetation classes surveyed on this date.
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
@@ -866,6 +866,200 @@ In the plots below, each color indicates a different Vegetation Class.
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/vegclass_label/BHSD_vegclass-22_color_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/vegclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+
+## Spectral Differences of reflectance signals (within one single date).
+
+This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Soil Class (18 classes). With this, we want to see whether different soil classes show clustering in the BHSD.
+
+We have previously applied a mask of NDVI < 0.5, to select areas with lower vegetation cover.
+
+We have 18 Soil Classes, as described in [this ArcGIS soil dataset](https://dangermondpreserve-tnc.hub.arcgis.com/maps/7f90768618d7408a8c3ef56dfc9eb74b/about).
+
+
+| #  | Vegetation Class                                |
+|----|-------------------------------------------------|
+| 1  | Clay                                            |
+| 2  | Clay loam                                       |
+| 3  | Cobbly clay loam                                |
+| 4  | Fine sandy loam                                 |
+|... |  ...                                            |
+
+
+In the plots below, each color indicates a different Soil Class.
+
+
+
+<details>
+  <summary><b> BHSD: 24 February 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/soilclass_label/BHSD_vegclass-22_color_ref_median_all_nc_24.02.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_24/soilclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_24.02.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 28 February 2022</b></summary>
+  
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/soilclass_label/BHSD_vegclass-22_color_ref_median_all_nc_28.02.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/02_28/soilclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_28.02.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 08 March 2022</b></summary>
+  
+  There are ... soil classes surveyed on this date.
+
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/soilclass_label/BHSD_vegclass-31_color_ref_median_all_nc_08.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_08/soilclass_label/BHSD_vegclass-31_color_ref_1minusmean_all_nc_08.03.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 16 March 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/soilclass_label/BHSD_vegclass_color_ref_median_all_nc_16.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_16/soilclass_label/BHSD_vegclass_color_ref_1minusmean_all_nc_16.03.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 22 March 2022</b></summary>
+  
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/soilclass_label/BHSD_vegclass-32_color_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/soilclass_label/BHSD_vegclass-32_color_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 05 April 2022</b></summary>
+  
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/soilclass_label/BHSD_vegclass_color_ref_median_all_nc_05.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/soilclass_label/BHSD_vegclass_color_ref_1minusmedian_all_nc_05.04.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 12 April 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/soilclass_label/BHSD_vegclass-28_color_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/soilclass_label/BHSD_vegclass-28_color_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+   <summary><b> BHSD: 20 April 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/soilclass_label/BHSD_vegclass-32_color_ref_median_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_20/soilclass_label/BHSD_vegclass-32_color_ref_1minusmean_all_nc_20.04.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 29 April 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/soilclass_label/BHSD_vegclass_color_ref_median_all_nc_29.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_29/soilclass_label/BHSD_vegclass_color_ref_1minusmean_all_nc_29.04.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 03 May 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/soilclass_label/BHSD_vegclass-26_color_ref_median_all_nc_03.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_03/soilclass_label/BHSD_vegclass-26_color_ref_1minusmean_all_nc_03.05.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 11 May 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/soilclass_label/BHSD_vegclass-27_color_ref_median_all_nc_11.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_11/soilclass_label/BHSD_vegclass-27_color_ref_1minusmean_all_nc_11.05.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 17 May 2022</b></summary>
+  
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/soilclass_label/BHSD_vegclass-22_color_ref_median_all_nc_17.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_17/soilclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_17.05.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 29 May 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/soilclass_label/BHSD_vegclass-30_color_ref_median_all_nc_29.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/soilclass_label/BHSD_vegclass-30_color_ref_1minusmean_all_nc_29.05.2022_wNaNs.PNG" width="40%">
+  </div>
+</details>
+
+
+<details>
+  <summary><b> BHSD: 14 September 2022</b></summary>
+
+  There are ... soil classes surveyed on this date.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/soilclass_label/BHSD_vegclass-22_color_ref_median_all_nc_14.09.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/09_14/soilclass_label/BHSD_vegclass-22_color_ref_1minusmean_all_nc_14.09.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
