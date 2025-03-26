@@ -946,11 +946,11 @@ In the plots below, each color indicates a different Soil Class.
 <details>
   <summary><b> BHSD: 22 March 2022</b></summary>
   
-  There are ... soil classes surveyed on this date.
+  There are 15 soil classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/soilclass_label/BHSD_vegclass-32_color_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/soilclass_label/BHSD_vegclass-32_color_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/soilclass_label/BHSD_soilclass-15_color_ref_median_all_nc_22.03.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/03_22/soilclass_label/BHSD_soilclass-15_color_ref_1minusmean_all_nc_22.03.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
@@ -958,11 +958,11 @@ In the plots below, each color indicates a different Soil Class.
 <details>
   <summary><b> BHSD: 05 April 2022</b></summary>
   
-  There are 13 soil classes surveyed on this date.
+  There are no soil classes surveyed on this date; no data with NDVI < 0.25.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/soilclass_label/BHSD_soilclass-13_color_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/soilclass_label/BHSD_soilclass-13_color_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/soilclass_label/...PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_05/soilclass_label/...PNG" width="40%">
   </div>
 </details>
 
@@ -970,11 +970,11 @@ In the plots below, each color indicates a different Soil Class.
 <details>
   <summary><b> BHSD: 12 April 2022</b></summary>
 
-  There are ... soil classes surveyed on this date.
+  There are 13 soil classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/soilclass_label/BHSD_vegclass-28_color_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/soilclass_label/BHSD_vegclass-28_color_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/soilclass_label/BHSD_soilclass-13_color_ref_median_all_nc_12.04.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/04_12/soilclass_label/BHSD_soilclass-13_color_ref_1minusmean_all_nc_12.04.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
