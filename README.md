@@ -1046,8 +1046,8 @@ In the plots below, each color indicates a different Soil Class.
   There are 15 soil classes surveyed on this date.
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/soilclass_label/BHSD_soilclass-15_color_ref_1minusmean_all_nc_29.05.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/soilclass_label/BHSD_soilclass-15_color_ref_median_all_nc_29.05.2022_wNaNs.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/soilclass_label/BHSD_soilclass-15_color_ref_1minusmean_all_nc_29.05.2022_wNaNs.PNG" width="40%">
   </div>
 </details>
 
