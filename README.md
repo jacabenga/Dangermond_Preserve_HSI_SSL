@@ -502,6 +502,8 @@ This section contains temporary results of the **Bidimensional Histogram of Spec
 
 This section shows similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Alliance type (3 coarse classes), instead of by pixel count. With this, we want to see whether different vegetation alliance types show clustering in the BHSD.
 
+In the plots below, the **reference signal** for comparison is the **median (left)**, and the **[1 - mean] (right)**.
+
 We have 3 types of Vegetation Alliance:
 
 | #  | Alliance Type                |
@@ -639,6 +641,8 @@ In the plots below, each color indicates a different Vegetation Alliance.
 ## Spectral Differences of reflectance signals: Vegetation Classes within one single date.
 
 This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Vegetation Class (50 fine-grained classes), instead of by pixel count. With this, we want to see whether different vegetation classes show clustering in the BHSD.
+
+In the plots below, the **reference signal** for comparison is the **median (left)**, and the **[1 - mean] (right)**.
 
 We have 50 Vegetation Classes, as described in [this ArcGIS vegetation dataset](https://dangermondpreserve-tnc.hub.arcgis.com/datasets/TNC::vegetation/about).
 
@@ -876,6 +880,8 @@ In the plots below, each color indicates a different Vegetation Class.
 This section will show similar results as above (**Bidimensional Histogram of Spectral Difference, BHSD**), but each pixel is color-coded by Soil Class (18 classes). With this, we want to see whether different soil classes show clustering in the BHSD.
 
 We have previously applied a mask of NDVI < 0.25, to select areas with lower vegetation cover.
+
+In the plots below, the **reference signal** for comparison is the **median (left)**, and the **[1 - mean] (right)**.
 
 We have 18 Soil Classes, as described in [this ArcGIS soil dataset](https://dangermondpreserve-tnc.hub.arcgis.com/maps/7f90768618d7408a8c3ef56dfc9eb74b/about).
 
