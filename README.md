@@ -1055,7 +1055,7 @@ In the plots below, each color indicates a different Soil Class.
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/soilclass_label/BHSD_soilclass-15_color_ref_median_all_nc_29.05.2022_wNaNs.PNG" width="40%">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/same_date/05_29/soilclass_label/BHSD_soilclass-15_color_ref_1minusmean_all_nc_29.05.2022_wNaNs.PNG" width="40%">
   </div>
-</details>
+ </details>
 
 
 <details>
@@ -1070,3 +1070,14 @@ In the plots below, each color indicates a different Soil Class.
 </details>
 
 
+
+## Median reflectance: signature of vegetation communities (median across flight lines, across separate dates)
+
+This section contains plots of the median spectral signature for each [vegetation community](https://jacabenga.github.io/Dangermond_Preserve_HSI_SSL/#7/34.510/-120.422), averaged across all flight lines, across survey dates. Each spectrum has been filtered to remove noise, using the Savitzky-Golay filter (window_size = 9 bands; polynomial_order = 2).
+
+  This is the phenology trajectory of VegClass 23.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_23/VegClass_23.png" width="40%">
+  </div>
+ </details>
