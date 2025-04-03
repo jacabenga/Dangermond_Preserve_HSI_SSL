@@ -1106,6 +1106,6 @@ This section contains plots of the median spectral signature for each [vegetatio
 </details>
 
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/color_bar.png" width="80%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/color_bar.png" width="160%">
   </div>
  </details>
