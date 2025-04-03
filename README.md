@@ -1094,6 +1094,6 @@ This section contains plots of the median spectral signature for each [vegetatio
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_median_24_Feb_all_dates_zeropadded.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_1_minusmean_all_dates_zeropadded.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_1minusmean_all_dates_zeropadded.PNG" width="40%">
   </div>
 </details>
