@@ -1079,9 +1079,21 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 23</b></summary>
 
-  This is the phenology trajectory of VegClass 23.
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 23.
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_23/VegClass_23.png" width="80%">
   </div>
  </details>
+
+
+<details>
+  <summary><b> BHSD: Vegetation Class # 20</b></summary>
+
+  This is how the phenology trajectory shows in the BHSD for VegClass 20.
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_median_24_Feb_all_dates_zeropadded.PNG" width="40%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_1_minusmean_all_dates_zeropadded.PNG" width="40%">
+  </div>
+</details>
