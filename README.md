@@ -1089,11 +1089,26 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 <details>
   <summary><b> BHSD: Vegetation Class # 20</b></summary>
+    
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 20 (Coyote brush scrub).
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/VegClass_20.png" width="80%">
+  </div>
+ </details>
 
   This is how the phenology trajectory shows in the BHSD for VegClass 20. **Left:** the reference is the median of 24 February. **Right:** the reference is 1-mean (where mean is calculated across all dates).
   
-  <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_median_24_Feb_all_dates_zeropadded.PNG" width="40%">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_1minusmean_all_dates_zeropadded.PNG" width="40%">
-  </div>
-</details>
+<div class="center">
+  <!-- First image -->
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_median_24_Feb_all_dates_zeropadded.PNG" width="40%">
+  
+  <!-- Second image -->
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/BHSD_vegclass-20_color_ref_1minusmean_all_dates_zeropadded.PNG" width="40%">
+</div>
+
+<!-- Third image, centered and full width -->
+<div style="text-align: center; width: 100%;">
+  <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/color_bar.png" width="100%">
+</div>
+
