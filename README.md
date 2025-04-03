@@ -1089,6 +1089,13 @@ This section contains plots of the median spectral signature for each [vegetatio
 
 <details>
   <summary><b> BHSD: Vegetation Class # 20</b></summary>
+    
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 20 (Coyote brush scrub).
+  
+  <div class="center">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/VegClass_20.png" width="80%">
+  </div>
+ </details>
 
   This is how the phenology trajectory shows in the BHSD for VegClass 20. **Left:** the reference is the median of 24 February. **Right:** the reference is 1-mean (where mean is calculated across all dates).
   
