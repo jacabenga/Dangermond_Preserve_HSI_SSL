@@ -1167,7 +1167,7 @@ This section contains plots of the median spectral signature for each [vegetatio
   This is how the phenology trajectory shows in the reflectance signature for VegClass 24 (which corresponds to ** Eucalyptus Groves **).
   
   <div class="center">
-    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_26/VegClass_26.png" width="80%">
+    <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_24/VegClass_24.png" width="80%">
   </div>
  </details>
 
