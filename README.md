@@ -1078,7 +1078,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 1</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 1 (which corresponds to ** Agricultural Areas **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 1 (which corresponds to **Agricultural Areas**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_1/VegClass_1.png" width="80%">
@@ -1089,7 +1089,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 2</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 2 (which corresponds to ** Arroyo Willow Thickets **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 2 (which corresponds to **Arroyo Willow Thickets**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_2/VegClass_2.png" width="80%">
@@ -1100,7 +1100,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 4</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 4 (which corresponds to **	Bishop Pine Forest **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 4 (which corresponds to **Bishop Pine Forest**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_4/VegClass_4.png" width="80%">
@@ -1112,7 +1112,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 20</b></summary>
     
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 20 (which corresponds to ** Coyote brush scrub **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 20 (which corresponds to **Coyote brush scrub**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_20/VegClass_20.png" width="80%">
