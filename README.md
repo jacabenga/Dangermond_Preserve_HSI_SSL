@@ -1141,7 +1141,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 21</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 21 (which corresponds to ** Creeping Ryegrass Turfs **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 21 (which corresponds to **Creeping Ryegrass Turfs**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_21/VegClass_21.png" width="80%">
@@ -1153,7 +1153,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 23</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 23 (which corresponds to ** Developed/Disturbed Areas **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 23 (which corresponds to **Developed/Disturbed Areas**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_23/VegClass_23.png" width="80%">
@@ -1164,7 +1164,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 24</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 24 (which corresponds to ** Eucalyptus Groves **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 24 (which corresponds to **Eucalyptus Groves**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_24/VegClass_24.png" width="80%">
@@ -1176,7 +1176,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 26</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 26 (which corresponds to ** Giant Wild Rye Grassland **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 26 (which corresponds to **Giant Wild Rye Grassland**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_26/VegClass_26.png" width="80%">
@@ -1188,7 +1188,7 @@ This section contains plots of the median spectral signature for each [vegetatio
 <details>
   <summary><b> BHSD: Vegetation Class # 34</b></summary>
 
-  This is how the phenology trajectory shows in the reflectance signature for VegClass 34 (which corresponds to ** Open Waters **).
+  This is how the phenology trajectory shows in the reflectance signature for VegClass 34 (which corresponds to **Open Waters**).
   
   <div class="center">
     <img src="https://github.com/jacabenga/Dangermond_Preserve_HSI_SSL/raw/main/BHSD/different_dates/class_34/VegClass_34.png" width="80%">
