@@ -1188,3 +1188,32 @@ This section contains plots of the median spectral signature for each [vegetatio
  </details>
 
 
+
+## Case Study 1: non-native grassland classification.
+
+This section contains classification results of "non-native grassland" with classification methods from different families.
+
+- Supervised methods:
+  
+  - Ensamble boosted method: XGBoost classifier.
+  - Ensemble Baggin method: Extra Trees Classifier.
+ 
+- Unsupervised methods:
+
+  - KNN classifier.
+  - minibatch Kmeans
+  - DBSCAN
+  - HDBSCAN
+  - Autoencoder + ANN
+    - (the encoder learns low-dim embeddings (unsupervised), then we use FAISS to approximate neighbors (either using no labels or a subset of labels).
+ 
+
+-  Semi-supervised
+  - Graph-based label propagation.
+
+- Self-supervised learning methods (SSL)
+
+
+
+
+
